@@ -7,7 +7,7 @@
  
   "scripts": {
     "dev" : "SET NODE_ENV=DEVELOPMENT& nodemon backend/app.js",
-    "prod" : "SET NODE_ENV=PRODUCTION nodemon backend/app.js"
+    "prod" : "SET NODE_ENV=PRODUCTION& nodemon backend/app.js"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
